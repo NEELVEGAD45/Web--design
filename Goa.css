@@ -1,0 +1,97 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     background-image: url(goa2.jpg);
+     background-repeat: no-repeat;
+     overflow: hidden;
+     background-size: cover;
+  }
+  a img{
+    padding-top: 5px;
+    width: 20px;
+    height: 20px;
+    background:none;
+  }
+  
+  
+  .goa{
+      font-size: 38px;
+      color: white;
+      padding-top:50px;
+      margin-left:80px;
+      font-family: 'Roboto',sans-serif;
+      
+  }
+  .goa p{
+      font-size:20px;
+      font-weight:600;
+      font-family: 'Roboto',sans-serif;
+  }
+  .card{
+      width: 200px;
+      height:230px;
+      display: inline-block;
+      border-radius: 10px;
+      padding: 90px 30px;
+      box-sizing: border-box;
+      cursor: pointer;
+      margin: 10px 15px;
+      margin-left:10px; 
+      background-image:url(Mumbai.jpg);
+      background-position: center;
+      background-size: cover;
+  }
+  
+  
+  .card h5{
+      color:white;
+      font-size:16px;
+      padding-top:110px;
+      font-weight: bold;
+      
+      
+  }
+  .card:hover{
+      border: 2px solid white;
+      transform: scale(1.1);
+      transition:1s;
+  }
+  
+  .card1{
+      background-image:url(beach.jpg);
+  }
+  .card2{
+      background-image:url(panaji.jpg);
+  }
+  .card3{
+      background-image:url(fort.jpg);
+  }
+  .card4{
+      background-image:url(dudhsagar.jpg);
+  }
+  
+  .div1 p{
+      margin-left:1000px;
+      color: white;
+      font-weight:700;
+      font-size:20px;
+      cursor: pointer;
+      padding-bottom:-5px;
+  }
+  .div1 p:hover{
+      color: black;
+      transform: scale(1.1);
+      transition: 2s;
+  }
+  input[type="submit"]{
+      height:50px;
+      width:15%;
+      margin-left:990px;
+      margin-top: 15px;
+      border:1px solid #2691d9;
+      border-radius: 25px;
+      background-color:#2691d9;
+      font-size: 20px;
+      font-weight: 700;
+      color:white;
+      cursor: pointer;  
+  } 
